@@ -1,4 +1,4 @@
 # nixpacks.toml
 
 [start]
-cmd = "lein run migrate && java -jar $(find ./target -name '*.jar' ! -name '*SNAPSHOT*')"
+cmd = "./start-app.sh"
