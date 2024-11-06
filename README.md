@@ -1,21 +1,26 @@
-# brapp
+---
+title: Clojure Luminus
+description: A simple Luminus app
+tags:
+  - clojure
+  - luminus
+  - postgres
+---
 
-generated using Luminus version "4.50"
+# Clojure Luminus Example
 
-FIXME
+This example is a simple [Luminus](https://svelte.dev/) app.
 
-## Prerequisites
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/DsDYI2)
 
-You will need [Leiningen][1] 2.0 or above installed.
+## ✨ Features
 
-[1]: https://github.com/technomancy/leiningen
+- Luminus
+- Clojure
+- Postgres
 
-## Running
+## 💁‍♀️ How to use
 
-To start a web server for the application, run:
-
-    lein run 
-
-## License
-
-Copyright © 2024 FIXME
+- Install dependencies `lein deps`
+- Connect to your Railway project `railway link`
+- Start server `railway run lein run`
