@@ -1,4 +1,4 @@
 # nixpacks.toml
 
 [start]
-cmd = "java -jar $(find target/uberjar -name '*.jar' ! -name '*SNAPSHOT*')"
+cmd = "lein run migrate && java -jar $(find ./target -name '*.jar' ! -name '*SNAPSHOT*')"
