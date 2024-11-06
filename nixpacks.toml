@@ -1,0 +1,4 @@
+# nixpacks.toml
+
+[start]
+cmd = "JAR_FILE=$(find ./target -name '*.jar' ! -name '*SNAPSHOT.jar'); java -jar $JAR_FILE"
