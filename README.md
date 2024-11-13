@@ -9,7 +9,7 @@ tags:
 
 # Clojure Luminus Example
 
-This example is a simple [Luminus](https://svelte.dev/) app.
+This example is a simple [Luminus](https://luminusweb.com) app.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/DsDYI2)
 
